@@ -11,8 +11,7 @@ struct ContentView: View {
     
     @State private var currentDate: Date = Date()
     @State private var subject: String = ""
-    @State private var strengths: String = ""
-    @State private var weaknesses: String = ""
+
     
     var body: some View {
         
@@ -22,14 +21,23 @@ struct ContentView: View {
                 VStack {
                     Text("Enter Subject: ")
                     TextField("Required", text: $subject)
-                    Text("Enter Strengths: ")
-                    TextField("Required", text: $strengths)
-                    Text("Enter Weaknesses: ")
-                    TextField("Required", text: $weaknesses)
+
+
+                    HStack {
+                        Text("Difficulty")
+                            .font(Font.headline)
+                        RadioButtonGroups {
+                            selected in
+                            print("Difficulty: \(selected)")
+                        }
+                    }
+                    .padding()
                 }
                 .textFieldStyle(.roundedBorder)
                 .multilineTextAlignment(.center)
                 .frame(maxHeight: .infinity, alignment: .top)
+                
+                
                 
             }
                 .navigationTitle("Comment Card Writer")

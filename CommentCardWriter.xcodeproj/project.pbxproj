@@ -15,6 +15,7 @@
 		02062245299257B600F20C5C /* CommentCardWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02062244299257B600F20C5C /* CommentCardWriterUITests.swift */; };
 		02062247299257B600F20C5C /* CommentCardWriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02062246299257B600F20C5C /* CommentCardWriterUITestsLaunchTests.swift */; };
 		020622562992631F00F20C5C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020622552992631F00F20C5C /* Date.swift */; };
+		6C8FA6CA2992DA8500599D37 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FA6C92992DA8500599D37 /* RadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		02062244299257B600F20C5C /* CommentCardWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITests.swift; sourceTree = "<group>"; };
 		02062246299257B600F20C5C /* CommentCardWriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		020622552992631F00F20C5C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		6C8FA6C92992DA8500599D37 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				020622542992630A00F20C5C /* Extensions */,
 				02062229299257B400F20C5C /* CommentCardWriterApp.swift */,
 				0206222B299257B400F20C5C /* ContentView.swift */,
+				6C8FA6C92992DA8500599D37 /* RadioButton.swift */,
 				0206222D299257B500F20C5C /* Assets.xcassets */,
 				0206222F299257B500F20C5C /* Preview Content */,
 			);
@@ -271,6 +274,7 @@
 				0206222C299257B400F20C5C /* ContentView.swift in Sources */,
 				020622562992631F00F20C5C /* Date.swift in Sources */,
 				0206222A299257B400F20C5C /* CommentCardWriterApp.swift in Sources */,
+				6C8FA6CA2992DA8500599D37 /* RadioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
