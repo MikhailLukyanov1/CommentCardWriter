@@ -14,6 +14,7 @@
 		0206223B299257B600F20C5C /* CommentCardWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0206223A299257B600F20C5C /* CommentCardWriterTests.swift */; };
 		02062245299257B600F20C5C /* CommentCardWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02062244299257B600F20C5C /* CommentCardWriterUITests.swift */; };
 		02062247299257B600F20C5C /* CommentCardWriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02062246299257B600F20C5C /* CommentCardWriterUITestsLaunchTests.swift */; };
+		020622562992631F00F20C5C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020622552992631F00F20C5C /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		02062240299257B600F20C5C /* CommentCardWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommentCardWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02062244299257B600F20C5C /* CommentCardWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITests.swift; sourceTree = "<group>"; };
 		02062246299257B600F20C5C /* CommentCardWriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCardWriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		020622552992631F00F20C5C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		02062228299257B400F20C5C /* CommentCardWriter */ = {
 			isa = PBXGroup;
 			children = (
+				020622542992630A00F20C5C /* Extensions */,
 				02062229299257B400F20C5C /* CommentCardWriterApp.swift */,
 				0206222B299257B400F20C5C /* ContentView.swift */,
 				0206222D299257B500F20C5C /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				02062246299257B600F20C5C /* CommentCardWriterUITestsLaunchTests.swift */,
 			);
 			path = CommentCardWriterUITests;
+			sourceTree = "<group>";
+		};
+		020622542992630A00F20C5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				020622552992631F00F20C5C /* Date.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0206222C299257B400F20C5C /* ContentView.swift in Sources */,
+				020622562992631F00F20C5C /* Date.swift in Sources */,
 				0206222A299257B400F20C5C /* CommentCardWriterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
