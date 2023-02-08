@@ -13,6 +13,7 @@ struct ContentView: View {
     @State private var subject: String = ""
     @State private var difficultyChoice: String = ""
     @State private var happinessChoice: String = ""
+    @State private var EWLengthChoice: String = ""
     
     var body: some View {
         
@@ -47,6 +48,17 @@ struct ContentView: View {
                         }
                         .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
                         .border(Color.white)
+                        HStack {
+                            Text("EW Length")
+                                .font(Font.headline)
+                            RadioButtonGroupsEW {
+                                selected in
+                                EWLengthChoice = selected
+                                print(EWLengthChoice)
+                            }
+                        }
+                        .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
+                        .border(Color.white)
                     }
                     .padding(20)
                     
@@ -70,6 +82,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewInterfaceOrientation(.portraitUpsideDown)
+
     }
 }

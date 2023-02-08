@@ -17,7 +17,8 @@
 		020622562992631F00F20C5C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020622552992631F00F20C5C /* Date.swift */; };
 		02AD28982993A0AA006507A6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AD28972993A0AA006507A6 /* SwiftUIView.swift */; };
 		02AD289A2993A0DF006507A6 /* RadioButtonHappiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AD28992993A0DF006507A6 /* RadioButtonHappiness.swift */; };
-		6C8FA6CA2992DA8500599D37 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FA6C92992DA8500599D37 /* RadioButton.swift */; };
+		6C8FA6CA2992DA8500599D37 /* RadioButtonDifficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FA6C92992DA8500599D37 /* RadioButtonDifficulty.swift */; };
+		6C9A55C52994435B00F67992 /* RadioButtonEWs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9A55C42994435B00F67992 /* RadioButtonEWs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,8 @@
 		020622552992631F00F20C5C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		02AD28972993A0AA006507A6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		02AD28992993A0DF006507A6 /* RadioButtonHappiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonHappiness.swift; sourceTree = "<group>"; };
-		6C8FA6C92992DA8500599D37 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		6C8FA6C92992DA8500599D37 /* RadioButtonDifficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonDifficulty.swift; sourceTree = "<group>"; };
+		6C9A55C42994435B00F67992 /* RadioButtonEWs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonEWs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +107,9 @@
 				020622542992630A00F20C5C /* Extensions */,
 				02062229299257B400F20C5C /* CommentCardWriterApp.swift */,
 				0206222B299257B400F20C5C /* ContentView.swift */,
-				6C8FA6C92992DA8500599D37 /* RadioButton.swift */,
+				6C8FA6C92992DA8500599D37 /* RadioButtonDifficulty.swift */,
 				02AD28992993A0DF006507A6 /* RadioButtonHappiness.swift */,
+				6C9A55C42994435B00F67992 /* RadioButtonEWs.swift */,
 				02AD28972993A0AA006507A6 /* SwiftUIView.swift */,
 				0206222D299257B500F20C5C /* Assets.xcassets */,
 				0206222F299257B500F20C5C /* Preview Content */,
@@ -281,8 +284,9 @@
 				020622562992631F00F20C5C /* Date.swift in Sources */,
 				02AD28982993A0AA006507A6 /* SwiftUIView.swift in Sources */,
 				02AD289A2993A0DF006507A6 /* RadioButtonHappiness.swift in Sources */,
+				6C9A55C52994435B00F67992 /* RadioButtonEWs.swift in Sources */,
 				0206222A299257B400F20C5C /* CommentCardWriterApp.swift in Sources */,
-				6C8FA6CA2992DA8500599D37 /* RadioButton.swift in Sources */,
+				6C8FA6CA2992DA8500599D37 /* RadioButtonDifficulty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

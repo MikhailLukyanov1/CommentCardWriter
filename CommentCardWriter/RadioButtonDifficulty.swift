@@ -67,7 +67,7 @@ struct RadioButtonGroupsDifficulty: View {
 
 
 
-struct RadioButton: View {
+struct RadioButtonDifficulty: View {
     @State private var difficultyChoice: String = ""
     var body: some View {
         HStack {
@@ -88,6 +88,6 @@ struct RadioButton: View {
 
 struct RadioButton_Previews: PreviewProvider {
     static var previews: some View {
-        RadioButton()
+        RadioButtonDifficulty()
     }
 }
