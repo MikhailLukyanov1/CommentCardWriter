@@ -69,6 +69,8 @@ struct RadioButtonHappiness: View {
                 print("Selected Difficulty: \(selected)")
             }
         }
+        .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
+        .border(Color.white)
 
     }
 }

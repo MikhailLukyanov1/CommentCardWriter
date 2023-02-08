@@ -68,17 +68,20 @@ struct RadioButtonGroupsDifficulty: View {
 
 
 struct RadioButton: View {
+    @State private var difficultyChoice: String = ""
     var body: some View {
         HStack {
-            Text(" Difficulty   ")
+            Text("Difficulty   ")
                 .font(Font.headline)
             RadioButtonGroupsDifficulty {
                 selected in
                 print("Selected Difficulty: \(selected)")
+                difficultyChoice = selected
+                print(difficultyChoice)
             }
         }
         .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
-        .border(Color.black)
+        .border(Color.white)
 
     }
 }

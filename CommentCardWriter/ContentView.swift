@@ -11,7 +11,8 @@ struct ContentView: View {
     
     @State private var currentDate: Date = Date()
     @State private var subject: String = ""
-
+    @State private var difficultyChoice: String = ""
+    @State private var happinessChoice: String = ""
     
     var body: some View {
         
@@ -24,13 +25,32 @@ struct ContentView: View {
 
 
                     VStack {
-                        RadioButton()
-                        RadioButtonHappiness()
+                        HStack {
+                            Text("Difficulty   ")
+                                .font(Font.headline)
+                            RadioButtonGroupsDifficulty {
+                                selected in
+                                difficultyChoice = selected
+                                print(difficultyChoice)
+                            }
+                        }
+                        .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
+                        .border(Color.white)
+                        HStack {
+                            Text("Happiness")
+                                .font(Font.headline)
+                            RadioButtonGroupsHappiness {
+                                selected in
+                                happinessChoice = selected
+                                print(happinessChoice)
+                            }
+                        }
+                        .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
+                        .border(Color.white)
                     }
                     .padding(20)
                     
-
-
+                    
                     
                 }
                 .textFieldStyle(.roundedBorder)
