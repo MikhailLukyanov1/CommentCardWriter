@@ -23,15 +23,15 @@ struct ContentView: View {
                     TextField("Required", text: $subject)
 
 
-                    HStack {
-                        Text("Difficulty")
-                            .font(Font.headline)
-                        RadioButtonGroups {
-                            selected in
-                            print("Difficulty: \(selected)")
-                        }
+                    VStack {
+                        RadioButton()
+                        RadioButtonHappiness()
                     }
-                    .padding()
+                    .padding(20)
+                    
+
+
+                    
                 }
                 .textFieldStyle(.roundedBorder)
                 .multilineTextAlignment(.center)
