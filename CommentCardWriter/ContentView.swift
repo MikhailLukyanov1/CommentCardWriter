@@ -14,6 +14,7 @@ struct ContentView: View {
     @State private var difficultyChoice: String = ""
     @State private var happinessChoice: String = ""
     @State private var EWLengthChoice: String = ""
+
     
     var body: some View {
         
@@ -59,6 +60,8 @@ struct ContentView: View {
                         }
                         .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
                         .border(Color.white)
+                        
+                        
                     }
                     .padding(20)
                     
