@@ -14,6 +14,7 @@ struct ContentView: View {
     @State private var difficultyChoice: String = ""
     @State private var happinessChoice: String = ""
     @State private var EWLengthChoice: String = ""
+    @State private var generatedComment: String = ""
 
     
     var body: some View {
@@ -61,18 +62,27 @@ struct ContentView: View {
                         .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
                         .border(Color.white)
                         
+                    
+                        
                         
                     }
                     .padding(20)
                     
+                    Button("Make Comment") {
+                        let comment = Comment(sub: subject, difficulty: difficultyChoice, happiness: happinessChoice, EWLength: EWLengthChoice)
+                        
+                        generatedComment = comment.generateComment()
+                        
+                        
+                    }
                     
+                    Text(generatedComment)
+
                     
                 }
                 .textFieldStyle(.roundedBorder)
                 .multilineTextAlignment(.center)
                 .frame(maxHeight: .infinity, alignment: .top)
-                
-                
                 
             }
                 .navigationTitle("Comment Card Writer")
