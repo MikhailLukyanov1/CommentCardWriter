@@ -77,6 +77,8 @@ struct ContentView: View {
                     }
                     
                     Text(generatedComment)
+                        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 100)
+                        .border(Color.black)
 
                     
                 }
