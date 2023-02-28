@@ -34,7 +34,7 @@ struct ContentView: View {
                             RadioButtonGroupsDifficulty {
                                 selected in
                                 difficultyChoice = selected
-                                print(difficultyChoice)
+
                             }
                         }
                         .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
@@ -45,7 +45,7 @@ struct ContentView: View {
                             RadioButtonGroupsHappiness {
                                 selected in
                                 happinessChoice = selected
-                                print(happinessChoice)
+
                             }
                         }
                         .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
@@ -56,7 +56,7 @@ struct ContentView: View {
                             RadioButtonGroupsEW {
                                 selected in
                                 EWLengthChoice = selected
-                                print(EWLengthChoice)
+
                             }
                         }
                         .frame(minWidth: 0, maxWidth: 200, minHeight: 0, maxHeight: 100)
@@ -75,11 +75,12 @@ struct ContentView: View {
                         
                         
                     }
+                    .padding(25)
                     
-                    Text(generatedComment)
+
+                    TextEditor(text: $generatedComment)
                         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: 100)
                         .border(Color.black)
-
                     
                 }
                 .textFieldStyle(.roundedBorder)

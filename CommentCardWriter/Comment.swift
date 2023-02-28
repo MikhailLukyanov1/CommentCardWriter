@@ -31,10 +31,10 @@ class Comment {
             self.comment += "quite easy for me."
         }
         else if self.diff == "Medium" {
-            self.comment += "decently difficult for me."
+            self.comment += "going okay for me."
         }
         else if self.diff == "Hard" {
-            self.comment += "chalenging for me"
+            self.comment += "chalenging for me."
         }
         
         if self.happ == "Happy" {
@@ -54,9 +54,9 @@ class Comment {
             self.comment += " The EWs so far have been a good length."
         }
         else if self.EWLen == "Long" {
-            self.comment += " The EWs so far have been too long for me."
+            self.comment += " The EWs so far have been long."
         }
-        print(self.comment)
+
         return self.comment
     }
 }
